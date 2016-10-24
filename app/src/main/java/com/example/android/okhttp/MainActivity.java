@@ -153,6 +153,11 @@ public class MainActivity extends AppCompatActivity {
                                 Log.d(TAG,"network response\t\t"+response.networkResponse());
                                 Log.d(TAG,"");
                                 Log.d(TAG,"");
+                                /*  response				Response{protocol=http/1.1, code=200, message=OK, url=https://api.github.com/users/codepath}
+                                    response date			Mon, 24 Oct 2016 13:09:09 GMT
+                                    cached response		    Response{protocol=http/1.1, code=200, message=OK, url=https://api.github.com/users/codepath}
+                                    cached response date	Thu, 20 Oct 2016 16:47:11 GMT
+                                    network response		Response{protocol=http/1.1, code=304, message=Not Modified, url=https://api.github.com/users/codepath} */
                             }
 
                             // retrieve data from current response
